@@ -1,5 +1,14 @@
 # Hi there 👋
 
+```mermaid
+    flowchart TD
+        A[Start work] --> B{Do I have coffee?};
+        B -- Yes --> C{Top it up};
+        B -- No --> D{Get Coffee};
+        C ---> E[Enjoy my day];
+        D ---> E[Enjoy my day];
+```
+
 <details>
 <summary>
     Coding stats
